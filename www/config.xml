@@ -5,9 +5,9 @@
         xmlns:gap = "http://phonegap.com/ns/1.0"
         xmlns:android = "http://schemas.android.com/apk/res/android"
         id        = "com.webwapsolutions.epizzaappkaanspizza"
-        version   = "1.0">
+        version   = "1.0.0">
 
-    <name>Kaans Pizza</name>
+    <name>Kaans Pizza Odense</name>
     <description>
         <!--ePizza Suite App til din hjemmeside-->
 		Kaans Pizza App powered by ePizza Suite Pro - leveret af Web Wap Solutions
@@ -47,7 +47,7 @@
       <!-- Customize your app and platform with the preference element. -->
     <preference name="orientation"                value="default" />        <!-- all: default means both landscape and portrait are enabled -->
     <preference name="target-device"              value="universal" />      <!-- all: possible values handset, tablet, or universal -->
-    <preference name="fullscreen"                 value="false" ></preference>           <!-- all: hides the status bar at the top of the screen -->
+    <preference name="fullscreen"                 value="false" />           <!-- all: hides the status bar at the top of the screen -->
     <preference name="webviewbounce"              value="true" />           <!-- ios: control whether the screen 'bounces' when scrolled beyond the top -->
     <preference name="prerendered-icon"           value="true" />           <!-- ios: if icon is prerendered, iOS will not apply it's gloss to the app's icon on the user's home screen -->
     <preference name="stay-in-webview"            value="false" />          <!-- ios: external links should open in the default browser, 'true' would use the webview the app lives in -->
@@ -65,8 +65,8 @@
     <preference name="KeepRunning"                value="true"/>
     <preference name="InAppBrowserStorageEnabled" value="true"/>
     
-    <preference name="LoadingDialog" value="Kaans Pizza, Velkommen til Kaans Pizza"/>
-    <preference name="LoadingPageDialog" value="Kaans Pizza, Velkommen til Kaans Pizza"/>
+    <preference name="LoadingDialog" value="Pizza Pizza, Velkommen til Pizza Pizza"/>
+    <preference name="LoadingPageDialog" value="Pizza Pizza, Velkommen til Pizza Pizza"/>
     <preference name="LogLevel" value="WARN"/>
     
     <gap:config-file platform="android" parent="/manifest/application">
@@ -175,7 +175,6 @@
 	
 	<platform name="ios">
 	    <!-- images are determined by width and height. The following are supported -->
-	    <splash src="res/screen/ios/Icon-60@3x.png" width="180" height="180"/>
 	    <splash src="res/screen/ios/Default.png" width="320" height="480"/>
 	    <splash src="res/screen/ios/Default@2x.png" width="640" height="960"/>
 	    <splash src="res/screen/ios/Default-Portrait.png" width="768" height="1024"/>
